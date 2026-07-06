@@ -17,7 +17,7 @@ marcadorPlaza.addTo(mapa);
 marcadorParque.addTo(mapa);
 // 5. Conexión a nuestro servidor local GeoServer (Servicio WMS)
 var capaWMS = L.tileLayer.wms('http://localhost:8080/geoserver/semana12/wms', {
-    layers: 'semana12:Distrito_INEI_2017', // ¡Ojo! Poner el nombre exacto de la capa a usar
+    layers: 'SEMANA12:Distrito_INEI_2017', // Modificado para que coincida exactamente con la imagen
     format: 'image/png',
     transparent: true,
     version: '1.1.0',
