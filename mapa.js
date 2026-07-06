@@ -1,23 +1,24 @@
-// Inicializar el mapa
+// 1. Instanciar el mapa y establecer la vista en Huancayo
 var mapa = L.map('mapa').setView([-12.0667, -75.2049], 13);
 
-// Agregar mapa base
-L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; openStreetMap contributors'
+// 2. Añadir la capa base (¡AQUÍ ESTÁ LA CORRECCIÓN! Asignamos a la variable capaOSM)
+var capaOSM = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
 }).addTo(mapa);
 
-// Agregar un marcador
-var marcadorUNCP = L.marker([-12.0435, -75.2505]).bindPopup('<b>UNCP</b><br>Facultad de Ingenieria de Sistemas');
+// 3. Añadir marcadores con popups
+var marcadorUNCP = L.marker([-12.0435, -75.2505]).bindPopup('<b>UNCP</b><br>Facultad de Ingenieria');
 var marcadorPlaza = L.marker([-12.0667, -75.2049]).bindPopup('<b>Plaza Constitución</b><br>Centro');
 var marcadorParque = L.marker([-12.0725, -75.2098]).bindPopup('<b>Parque de la Identidad</b>');
 
-// 4. Agregar los marcadores al mapa para que sean visibles
+// 4. Agregar los marcadores al mapa
 marcadorUNCP.addTo(mapa);
 marcadorPlaza.addTo(mapa);
 marcadorParque.addTo(mapa);
+
 // 5. Conexión a nuestro servidor local GeoServer (Servicio WMS)
 var capaWMS = L.tileLayer.wms('http://localhost:8080/geoserver/semana12/wms', {
-    layers: 'SEMANA12:Distrito_INEI_2017', // Modificado para que coincida exactamente con la imagen
+    layers: 'SEMANA12:Distrito_INEI_2017',
     format: 'image/png',
     transparent: true,
     version: '1.1.0',
@@ -26,14 +27,14 @@ var capaWMS = L.tileLayer.wms('http://localhost:8080/geoserver/semana12/wms', {
 
 // 6. Agregamos la capa WMS al mapa
 capaWMS.addTo(mapa);
-// 7. Configurar el Control de Capas (Layers Control)
 
-// A. Agrupamos los mapas base (Solo se puede ver uno a la vez - Radio buttons)
+// 7. Configurar el Control de Capas (Layers Control)
+// A. Agrupamos los mapas base
 var mapasBase = {
     "Mapa(OSM)": capaOSM
 };
 
-// B. Agrupamos las capas superpuestas (Se pueden ver varias a la vez - Checkboxes)
+// B. Agrupamos las capas superpuestas
 var capasSuperpuestas = {
     "Universidad (UNCP)": marcadorUNCP,
     "Plaza Constitución": marcadorPlaza,
@@ -41,5 +42,5 @@ var capasSuperpuestas = {
     "Capa Distritos (GeoServer)": capaWMS
 };
 
-// C. Inyectamos el control de capas en la esquina superior derecha del mapa
+// C. Inyectamos el control de capas en el mapa
 L.control.layers(mapasBase, capasSuperpuestas).addTo(mapa);
