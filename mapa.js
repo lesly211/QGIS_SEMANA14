@@ -7,19 +7,11 @@ L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 }).addTo(mapa);
 
 // Agregar un marcador
-var marker = L.marker([-12.0435, -75.2505]).bindPopup("<b>UNCP</b><br>Facultad de Ingeniería de Sistemas").openPopup();
+var marcadorUNCP = L.marker([-12.0435, -75.2505]).bindPopup('<b>UNCP</b><br>Facultad de Ingenieria de Sistemas');
+var marcadorPlaza = L.marker([-12.0667, -75.2049]).bindPopup('<b>Plaza Constitución</b><br>Centro');
+var marcadorParque = L.marker([-12.0725, -75.2098]).bindPopup('<b>Parque de la Identidad</b>');
 
-// Agregar un círculo
-var circle = L.circle([-9.83930939259366, -75.99315976807257], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 500
-}).addTo(mapa);
-
-// Agregar un polígono
-var polygon = L.polygon([
-    [-9.83930939259366, -75.99315976807257],
-    [-9.83930939259366, -75.99315976807257],
-    [-9.83930939259366, -75.99315976807257]
-]).addTo(mapa);
+// 4. Agregar los marcadores al mapa para que sean visibles
+marcadorUNCP.addTo(mapa);
+marcadorPlaza.addTo(mapa);
+marcadorParque.addTo(mapa);
