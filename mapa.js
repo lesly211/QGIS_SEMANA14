@@ -1,3 +1,4 @@
+//ACTIVIDAD 01: Realizar 3 ubicaciones específicas con etiquetas
 // 1. Instanciar el mapa y establecer la vista en Huancayo
 var mapa = L.map('mapa').setView([-12.0667, -75.2049], 13);
 
@@ -25,16 +26,13 @@ var capaWMS = L.tileLayer.wms('http://localhost:8080/geoserver/semana12/wms', {
     attribution: "Datos del INEI servidos por GeoServer"
 });
 
-// 6. Agregamos la capa WMS al mapa
+// 6. Agregar la capa WMS al mapa
 capaWMS.addTo(mapa);
 
-// 7. Configurar el Control de Capas (Layers Control)
-// A. Agrupamos los mapas base
 var mapasBase = {
     "Mapa(OSM)": capaOSM
 };
 
-// B. Agrupamos las capas superpuestas
 var capasSuperpuestas = {
     "Universidad (UNCP)": marcadorUNCP,
     "Plaza Constitución": marcadorPlaza,
@@ -42,5 +40,4 @@ var capasSuperpuestas = {
     "Capa Distritos (GeoServer)": capaWMS
 };
 
-// C. Inyectamos el control de capas en el mapa
 L.control.layers(mapasBase, capasSuperpuestas).addTo(mapa);

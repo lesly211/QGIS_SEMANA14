@@ -1,0 +1,3937 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-06T17:39:51Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/515649285",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Botica tu Angel",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2062102,
+          -12.075023
+        ]
+      },
+      "id": "way/515649285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/516449193",
+        "addr:street": "Huancas",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2041479,
+          -12.0651784
+        ]
+      },
+      "id": "way/516449193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/516472129",
+        "addr:street": "Jirón Humboldt",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "source": "Kaart Ground Survey 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2021308,
+          -12.0916975
+        ]
+      },
+      "id": "way/516472129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/516499045",
+        "addr:street": "Jirón Humboldt",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "FarmaInka",
+        "source": "Kaart Ground Survey 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2040228,
+          -12.0879053
+        ]
+      },
+      "id": "way/516499045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517406995",
+        "addr:street": "Huancavelica",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Botica Solidaridad",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2131315,
+          -12.0731655
+        ]
+      },
+      "id": "way/517406995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517412879",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2078726,
+          -12.0721695
+        ]
+      },
+      "id": "way/517412879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517440289",
+        "addr:street": "Avenida 9 de Diciembre",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Megai Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2038509,
+          -12.0837601
+        ]
+      },
+      "id": "way/517440289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517452469",
+        "addr:city": "Huancayo",
+        "addr:street": "Prolongación 13 de Noviembre",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "fixme": "Name",
+        "name": "Botica Multi Farma",
+        "source": "Kaart Ground Survey 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2132697,
+          -12.0625267
+        ]
+      },
+      "id": "way/517452469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517789358",
+        "addr:street": "Jirón San Martin",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Botica Nicole",
+        "source": "Kaart Ground Survey 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4969411,
+          -11.7772139
+        ]
+      },
+      "id": "way/517789358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517789359",
+        "addr:street": "Jirón San Martin",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Botica R&L",
+        "source": "Kaart Ground Survey 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4970309,
+          -11.7770597
+        ]
+      },
+      "id": "way/517789359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517794749",
+        "addr:street": "Avenida Huancavelica",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Huancavelica",
+        "source": "Kaart Ground Survey 2017",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2131935,
+          -12.0730387
+        ]
+      },
+      "id": "way/517794749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1324440708",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Botica Bio Solidaridad",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.199349,
+          -12.0706796
+        ]
+      },
+      "id": "way/1324440708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1324561892",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Botica Peru Farma",
+        "operator": "Botica Peru Farma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.200608,
+          -12.0700488
+        ]
+      },
+      "id": "way/1324561892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4150228745",
+        "addr:city": "San Agustín de Cajas",
+        "addr:street": "Carretera Central Sur",
+        "amenity": "pharmacy",
+        "name": "Botica BelenFarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.247041,
+          -12.0101723
+        ]
+      },
+      "id": "node/4150228745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4150228765",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Socorro",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2098012,
+          -12.0691657
+        ]
+      },
+      "id": "node/4150228765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4150228771",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2084923,
+          -12.0860436
+        ]
+      },
+      "id": "node/4150228771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4150231320",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.22192,
+          -12.0496532
+        ]
+      },
+      "id": "node/4150231320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4295242643",
+        "amenity": "pharmacy",
+        "name": "Arcángel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2233423,
+          -12.1378924
+        ]
+      },
+      "id": "node/4295242643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4333982951",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3371301,
+          -11.0634169
+        ]
+      },
+      "id": "node/4333982951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4410444194",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "name:es": "Feria Real",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2093507,
+          -12.0703154
+        ]
+      },
+      "id": "node/4410444194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4844627298",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2098506,
+          -12.0690723
+        ]
+      },
+      "id": "node/4844627298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4844627521",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2101395,
+          -12.0690008
+        ]
+      },
+      "id": "node/4844627521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4844641460",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.208605,
+          -12.0693333
+        ]
+      },
+      "id": "node/4844641460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4856578521",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "SumakFarma",
+        "name:es": "SumakFarma",
+        "opening_hours": "Mo-Su 08:00-22:29",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1954313,
+          -12.0491243
+        ]
+      },
+      "id": "node/4856578521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4856578522",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Centro Médico",
+        "name:es": "Farmacia Centro Médico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1959588,
+          -12.0488677
+        ]
+      },
+      "id": "node/4856578522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4960722626",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "name:es": "Mifarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.205001,
+          -12.068795
+        ]
+      },
+      "id": "node/4960722626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4960723026",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "name:es": "Mifarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2069285,
+          -12.0742939
+        ]
+      },
+      "id": "node/4960723026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4960723322",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "name:es": "Inkafarma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2070167,
+          -12.0741123
+        ]
+      },
+      "id": "node/4960723322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4960723521",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "name:es": "Mifarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2083925,
+          -12.085986
+        ]
+      },
+      "id": "node/4960723521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035051928",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas del Pueblo",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2068743,
+          -12.0744057
+        ]
+      },
+      "id": "node/5035051928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035088220",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Santa Masqarina Farmacia",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2048795,
+          -12.0746472
+        ]
+      },
+      "id": "node/5035088220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035123114",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Universal",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2046374,
+          -12.0731155
+        ]
+      },
+      "id": "node/5035123114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035123932",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Martin",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2045489,
+          -12.0725598
+        ]
+      },
+      "id": "node/5035123932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035136441",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Mundo Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2044873,
+          -12.0722094
+        ]
+      },
+      "id": "node/5035136441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035136446",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Profarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2044596,
+          -12.0719945
+        ]
+      },
+      "id": "node/5035136446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035136455",
+        "addr:street": "Prolongación Huanuco",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas Andes Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2044006,
+          -12.0716712
+        ]
+      },
+      "id": "node/5035136455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035136462",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas Elyfarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2043675,
+          -12.0714554
+        ]
+      },
+      "id": "node/5035136462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035136468",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas Farmacisa's",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2043488,
+          -12.0712876
+        ]
+      },
+      "id": "node/5035136468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035136473",
+        "addr:street": "Andaluz",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2042469,
+          -12.0710508
+        ]
+      },
+      "id": "node/5035136473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035136480",
+        "addr:street": "Andaluz",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2043246,
+          -12.0709871
+        ]
+      },
+      "id": "node/5035136480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035177625",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Arcangel",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2043613,
+          -12.0709084
+        ]
+      },
+      "id": "node/5035177625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035245273",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Virgen de Chapi",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2080443,
+          -12.0626128
+        ]
+      },
+      "id": "node/5035245273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035291729",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas Santa Rosa",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2086712,
+          -12.0622769
+        ]
+      },
+      "id": "node/5035291729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035342196",
+        "addr:street": "Avenida San Carlos",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Mágica",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2036676,
+          -12.0552693
+        ]
+      },
+      "id": "node/5035342196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035403260",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Mega Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2055215,
+          -12.0761852
+        ]
+      },
+      "id": "node/5035403260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035403273",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2051244,
+          -12.074217
+        ]
+      },
+      "id": "node/5035403273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035457571",
+        "addr:street": "Avenida San Carlos",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Econo Salud",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2084608,
+          -12.0617607
+        ]
+      },
+      "id": "node/5035457571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035507534",
+        "addr:street": "Independencia",
+        "amenity": "pharmacy",
+        "name": "Farmacom",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2288804,
+          -12.0534928
+        ]
+      },
+      "id": "node/5035507534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035507541",
+        "addr:street": "Independencia",
+        "amenity": "pharmacy",
+        "name": "MarFarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2291574,
+          -12.0534986
+        ]
+      },
+      "id": "node/5035507541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035507548",
+        "addr:street": "Independencia",
+        "amenity": "pharmacy",
+        "name": "Mifarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2292755,
+          -12.0534934
+        ]
+      },
+      "id": "node/5035507548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035507587",
+        "addr:street": "Independencia",
+        "amenity": "pharmacy",
+        "name": "Botica Vida Salud",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2332459,
+          -12.0534288
+        ]
+      },
+      "id": "node/5035507587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035507651",
+        "addr:street": "Parra del Riego",
+        "amenity": "pharmacy",
+        "name": "MayiFarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2193245,
+          -12.0627658
+        ]
+      },
+      "id": "node/5035507651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035507670",
+        "addr:street": "Francisco Bolognesi",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2217961,
+          -12.0589231
+        ]
+      },
+      "id": "node/5035507670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035652867",
+        "addr:street": "Avenida San Carlos",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Vida Sana",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2023369,
+          -12.0529794
+        ]
+      },
+      "id": "node/5035652867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035681580",
+        "addr:street": "Martires de Periodistas",
+        "amenity": "pharmacy",
+        "name": "Bios Farmax",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1930545,
+          -12.0408967
+        ]
+      },
+      "id": "node/5035681580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035737333",
+        "addr:street": "Avenida San Carlos",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacalidad",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2023443,
+          -12.0523529
+        ]
+      },
+      "id": "node/5035737333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035737343",
+        "addr:street": "Pasaje Las Orquideas",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "D'Angel Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2022316,
+          -12.0519443
+        ]
+      },
+      "id": "node/5035737343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035744406",
+        "addr:street": "Avenida San Carlos",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1990303,
+          -12.0468382
+        ]
+      },
+      "id": "node/5035744406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035766865",
+        "addr:street": "Martires de Periodistas",
+        "amenity": "pharmacy",
+        "name": "Boticas",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1928144,
+          -12.0408388
+        ]
+      },
+      "id": "node/5035766865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035766869",
+        "addr:street": "Martires de Periodistas",
+        "amenity": "pharmacy",
+        "name": "Grupo Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1928404,
+          -12.0409331
+        ]
+      },
+      "id": "node/5035766869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5035766871",
+        "addr:street": "Martires de Periodistas",
+        "amenity": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1928621,
+          -12.0409967
+        ]
+      },
+      "id": "node/5035766871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5037308263",
+        "addr:street": "Independencia",
+        "amenity": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2325149,
+          -12.0529931
+        ]
+      },
+      "id": "node/5037308263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5037621617",
+        "addr:city": "Huancayo",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2108677,
+          -12.0678216
+        ]
+      },
+      "id": "node/5037621617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5037813194",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2104816,
+          -12.0684374
+        ]
+      },
+      "id": "node/5037813194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5037845562",
+        "addr:street": "Huancavelica",
+        "amenity": "pharmacy",
+        "name": "Wanka Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.225105,
+          -12.0535944
+        ]
+      },
+      "id": "node/5037845562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5037847173",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Socorro",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2171351,
+          -12.0574129
+        ]
+      },
+      "id": "node/5037847173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5037847228",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Regional Sostenible",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2157404,
+          -12.0596038
+        ]
+      },
+      "id": "node/5037847228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5037847271",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmax",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2146983,
+          -12.0612317
+        ]
+      },
+      "id": "node/5037847271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5037865882",
+        "addr:street": "Huancavelica",
+        "amenity": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2175887,
+          -12.0653071
+        ]
+      },
+      "id": "node/5037865882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039770653",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Judith",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2022037,
+          -12.0674389
+        ]
+      },
+      "id": "node/5039770653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039770659",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Yamely",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2018369,
+          -12.0672287
+        ]
+      },
+      "id": "node/5039770659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039770683",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2042504,
+          -12.0684347
+        ]
+      },
+      "id": "node/5039770683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039785428",
+        "addr:street": "Santa Beatriz",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1954719,
+          -12.0492321
+        ]
+      },
+      "id": "node/5039785428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039870631",
+        "addr:street": "Jirón San Martin",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Bios Farmax",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2003792,
+          -12.0534939
+        ]
+      },
+      "id": "node/5039870631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039956764",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Belen",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2032863,
+          -12.0678872
+        ]
+      },
+      "id": "node/5039956764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039957859",
+        "addr:street": "Leandra Torres",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Vida Sana",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2037175,
+          -12.0591165
+        ]
+      },
+      "id": "node/5039957859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039987164",
+        "addr:city": "Huancayo",
+        "addr:street": "Avenida San Carlos",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2030915,
+          -12.0547117
+        ]
+      },
+      "id": "node/5039987164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040015403",
+        "addr:street": "Prolongación Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2005348,
+          -12.0665793
+        ]
+      },
+      "id": "node/5040015403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040032522",
+        "addr:street": "Avenida Calmell del Solar",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Perú Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1976507,
+          -12.0510862
+        ]
+      },
+      "id": "node/5040032522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040032534",
+        "addr:street": "Avenida Calmell del Solar",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Diaz-D",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1983268,
+          -12.0518066
+        ]
+      },
+      "id": "node/5040032534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040056452",
+        "addr:street": "Martires de Periodistas",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Natura Bio Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.197602,
+          -12.0533137
+        ]
+      },
+      "id": "node/5040056452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040125489",
+        "addr:street": "Prolongación 13 de Noviembre",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2199913,
+          -12.0665265
+        ]
+      },
+      "id": "node/5040125489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040302526",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas Salud",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2096184,
+          -12.0694911
+        ]
+      },
+      "id": "node/5040302526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040302536",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2106695,
+          -12.0677864
+        ]
+      },
+      "id": "node/5040302536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040302562",
+        "addr:street": "La Merced",
+        "amenity": "pharmacy",
+        "name": "Botica Merced",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.215446,
+          -12.0649076
+        ]
+      },
+      "id": "node/5040302562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041325294",
+        "addr:street": "Guardia Civil",
+        "amenity": "pharmacy",
+        "name": "Rosifarmanicol",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1933273,
+          -12.0574631
+        ]
+      },
+      "id": "node/5041325294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041331721",
+        "addr:street": "Avenida Orion",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1886603,
+          -12.0573723
+        ]
+      },
+      "id": "node/5041331721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041456400",
+        "addr:street": "Miraflores",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Daju Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1977651,
+          -12.061783
+        ]
+      },
+      "id": "node/5041456400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041470403",
+        "addr:street": "Leandra Torres",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Gissela",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2014749,
+          -12.0640531
+        ]
+      },
+      "id": "node/5041470403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041480092",
+        "addr:street": "Avenida Los Proceres",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Vilafarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1980234,
+          -12.0849406
+        ]
+      },
+      "id": "node/5041480092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041500171",
+        "addr:street": "Circunvalacion",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1970111,
+          -12.0671495
+        ]
+      },
+      "id": "node/5041500171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041552915",
+        "addr:street": "Giraldez",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Confianza",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2022691,
+          -12.06423
+        ]
+      },
+      "id": "node/5041552915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041553742",
+        "addr:street": "Giraldez",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica y Salud",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2040839,
+          -12.0652069
+        ]
+      },
+      "id": "node/5041553742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041565217",
+        "addr:street": "Giraldez",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Pharma Nirvana",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2042446,
+          -12.0653003
+        ]
+      },
+      "id": "node/5041565217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041591825",
+        "addr:street": "Huancavelica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2299085,
+          -12.047836
+        ]
+      },
+      "id": "node/5041591825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041601082",
+        "addr:street": "Giraldez",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas del Pueblo",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2072067,
+          -12.066904
+        ]
+      },
+      "id": "node/5041601082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041640361",
+        "addr:street": "Giraldez",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Bristol",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2085012,
+          -12.06759
+        ]
+      },
+      "id": "node/5041640361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041675765",
+        "addr:street": "Paseo de la Breña",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Biofarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2122079,
+          -12.0695884
+        ]
+      },
+      "id": "node/5041675765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041748320",
+        "addr:street": "Avenida Huancavelica",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2083122,
+          -12.087392
+        ]
+      },
+      "id": "node/5041748320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041757078",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2188251,
+          -12.0721573
+        ]
+      },
+      "id": "node/5041757078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041771047",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica 28 de Julio",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2025038,
+          -12.0676234
+        ]
+      },
+      "id": "node/5041771047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041771055",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Medifar",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2010817,
+          -12.0668683
+        ]
+      },
+      "id": "node/5041771055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041771056",
+        "addr:street": "Avenida José Olaya",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Farmaquit",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2010461,
+          -12.066873
+        ]
+      },
+      "id": "node/5041771056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041817522",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Krisfarma",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2011441,
+          -12.0667402
+        ]
+      },
+      "id": "node/5041817522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041817533",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas Luis Felipe",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2019024,
+          -12.0671381
+        ]
+      },
+      "id": "node/5041817533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041817540",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Jerusalen",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2030511,
+          -12.0677601
+        ]
+      },
+      "id": "node/5041817540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041817548",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Luis Felipe",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2031796,
+          -12.0678263
+        ]
+      },
+      "id": "node/5041817548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041817566",
+        "addr:street": "Jirón Ica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Luis Felipe",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2053015,
+          -12.0690799
+        ]
+      },
+      "id": "node/5041817566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041819575",
+        "addr:street": "Avenida Ocopilla",
+        "amenity": "pharmacy",
+        "name": "Perú Farma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1970992,
+          -12.0727718
+        ]
+      },
+      "id": "node/5041819575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041866936",
+        "addr:street": "Giraldez",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica La Libertad",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2023106,
+          -12.0644863
+        ]
+      },
+      "id": "node/5041866936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041890289",
+        "addr:street": "Giraldez",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2073716,
+          -12.0672107
+        ]
+      },
+      "id": "node/5041890289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041937920",
+        "addr:street": "Paseo de la Breña",
+        "amenity": "pharmacy",
+        "name": "Farmacia Breña",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2144254,
+          -12.0710317
+        ]
+      },
+      "id": "node/5041937920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041942829",
+        "addr:street": "Paseo de la Breña",
+        "amenity": "pharmacy",
+        "name": "Boticas Conetti",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2149136,
+          -12.0712792
+        ]
+      },
+      "id": "node/5041942829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041949892",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Huanca Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2195153,
+          -12.0727867
+        ]
+      },
+      "id": "node/5041949892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041962474",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Farmacia Hospitalaria",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2204698,
+          -12.0732854
+        ]
+      },
+      "id": "node/5041962474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041962479",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Farmacia San Fernando",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2205109,
+          -12.073347
+        ]
+      },
+      "id": "node/5041962479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041962480",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Mifarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2205726,
+          -12.0733445
+        ]
+      },
+      "id": "node/5041962480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041970605",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2208578,
+          -12.0735128
+        ]
+      },
+      "id": "node/5041970605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041970924",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Econofarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2216312,
+          -12.0739286
+        ]
+      },
+      "id": "node/5041970924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041970925",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Farmacia hospitalaria",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2216851,
+          -12.0739538
+        ]
+      },
+      "id": "node/5041970925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041970930",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Botica Niño Jesús de Praga",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2218688,
+          -12.0740593
+        ]
+      },
+      "id": "node/5041970930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041974030",
+        "addr:street": "Avenida Ferrocarril",
+        "amenity": "pharmacy",
+        "name": "Mar Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2148291,
+          -12.0514238
+        ]
+      },
+      "id": "node/5041974030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5042000697",
+        "addr:street": "Avenida Jacinto Ibarra",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1992422,
+          -12.0790262
+        ]
+      },
+      "id": "node/5042000697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043257706",
+        "addr:street": "Jr. Tupac Amaru",
+        "amenity": "pharmacy",
+        "name": "Ji-AnFarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4970571,
+          -11.7799545
+        ]
+      },
+      "id": "node/5043257706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043293129",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Botica Mas Salud",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2252785,
+          -12.0759132
+        ]
+      },
+      "id": "node/5043293129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043293141",
+        "addr:street": "Daniel Alcides Carrion",
+        "amenity": "pharmacy",
+        "name": "Botica Multi Servicio",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2248216,
+          -12.075398
+        ]
+      },
+      "id": "node/5043293141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043324961",
+        "addr:street": "Union",
+        "amenity": "pharmacy",
+        "name": "Farmasalud y Vida 2",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2273306,
+          -12.0740098
+        ]
+      },
+      "id": "node/5043324961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043406007",
+        "addr:street": "Avenida 9 de Diciembre",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmaramos",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2079644,
+          -12.0861993
+        ]
+      },
+      "id": "node/5043406007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043424257",
+        "addr:street": "Jirón Lima",
+        "amenity": "pharmacy",
+        "name": "Farmacia Magistral",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2182836,
+          -12.0740442
+        ]
+      },
+      "id": "node/5043424257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043483801",
+        "addr:street": "Jirón Lima",
+        "amenity": "pharmacy",
+        "name": "Farmacia Mafer",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2152937,
+          -12.0724489
+        ]
+      },
+      "id": "node/5043483801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043536334",
+        "addr:housenumber": "373",
+        "addr:street": "Jirón Lima",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Dentfarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.210397,
+          -12.0698205
+        ]
+      },
+      "id": "node/5043536334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043612420",
+        "addr:street": "Jirón Loreto",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2077403,
+          -12.0687379
+        ]
+      },
+      "id": "node/5043612420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043628203",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2271049,
+          -12.0422021
+        ]
+      },
+      "id": "node/5043628203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043824296",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacon",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1989362,
+          -12.0865931
+        ]
+      },
+      "id": "node/5043824296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043824304",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Vida y Salud",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1991976,
+          -12.0862101
+        ]
+      },
+      "id": "node/5043824304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5045489587",
+        "addr:street": "Jirón Santa Isabel",
+        "amenity": "pharmacy",
+        "name": "Botica Yani Farma",
+        "source": "Reconocimiento cartográfico 2017 por Kaart."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2140772,
+          -12.0585517
+        ]
+      },
+      "id": "node/5045489587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5045489605",
+        "addr:street": "Jirón Santa Isabel",
+        "amenity": "pharmacy",
+        "name": "Farmacia Rosemberg",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2163169,
+          -12.0552795
+        ]
+      },
+      "id": "node/5045489605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5045519632",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "name": "Botica Solfarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2342042,
+          -12.0303922
+        ]
+      },
+      "id": "node/5045519632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5045519637",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "name": "Farma Natural",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2346842,
+          -12.0296728
+        ]
+      },
+      "id": "node/5045519637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5045519639",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "name": "Boticas Mi Salud",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2348259,
+          -12.0295107
+        ]
+      },
+      "id": "node/5045519639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048354666",
+        "addr:city": "San Agustín de Cajas",
+        "addr:street": "Carretera Central Sur",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.255,
+          -11.9951433
+        ]
+      },
+      "id": "node/5048354666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048354680",
+        "addr:city": "San Agustín de Cajas",
+        "addr:street": "Carretera Central Sur",
+        "amenity": "pharmacy",
+        "name": "Botica Melifarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2557221,
+          -11.9938835
+        ]
+      },
+      "id": "node/5048354680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048416914",
+        "addr:street": "Carretera Central Sur",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.282269,
+          -11.9524223
+        ]
+      },
+      "id": "node/5048416914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048448470",
+        "addr:street": "Jirón Acolla",
+        "amenity": "pharmacy",
+        "name": "Botica Cruz de Espinas",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4963406,
+          -11.7723309
+        ]
+      },
+      "id": "node/5048448470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048448491",
+        "addr:street": "Plaza Libertao",
+        "amenity": "pharmacy",
+        "name": "Botica Virgen de Guadalupe",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4968052,
+          -11.7727696
+        ]
+      },
+      "id": "node/5048448491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048605389",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "D'Farma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1999355,
+          -12.0849941
+        ]
+      },
+      "id": "node/5048605389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048763388",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2050137,
+          -12.077333
+        ]
+      },
+      "id": "node/5048763388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048763406",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica La Economica Para el Pueblo",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2044809,
+          -12.0781621
+        ]
+      },
+      "id": "node/5048763406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048779845",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Virgen Maria",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2041367,
+          -12.0787064
+        ]
+      },
+      "id": "node/5048779845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048779855",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmarsa",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2040381,
+          -12.0789053
+        ]
+      },
+      "id": "node/5048779855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048785974",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Farmafe",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2000229,
+          -12.0853245
+        ]
+      },
+      "id": "node/5048785974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048801678",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Pedro",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2024847,
+          -12.0814079
+        ]
+      },
+      "id": "node/5048801678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5048801687",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.202294,
+          -12.0817533
+        ]
+      },
+      "id": "node/5048801687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049062983",
+        "addr:street": "Avenida 9 de Diciembre",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Lazo Farmax",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2040573,
+          -12.0835163
+        ]
+      },
+      "id": "node/5049062983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049078927",
+        "addr:street": "Avenida 9 de Diciembre",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Boticas Celia",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2049748,
+          -12.0840844
+        ]
+      },
+      "id": "node/5049078927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049284626",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Celia",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2035475,
+          -12.0792623
+        ]
+      },
+      "id": "node/5049284626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049284634",
+        "addr:street": "Calle Real",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Josfarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2034153,
+          -12.079491
+        ]
+      },
+      "id": "node/5049284634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049398378",
+        "addr:street": "Avenida 9 de Diciembre",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Torres Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2033175,
+          -12.0834065
+        ]
+      },
+      "id": "node/5049398378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049609809",
+        "addr:street": "Avenida 9 de Diciembre",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Lina",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2077683,
+          -12.0857776
+        ]
+      },
+      "id": "node/5049609809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049630210",
+        "addr:street": "Avenida Huancavelica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Massfarma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2082189,
+          -12.0852642
+        ]
+      },
+      "id": "node/5049630210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049656186",
+        "addr:street": "Avenida Leoncio Prado",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farma Luzz",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2100272,
+          -12.0820335
+        ]
+      },
+      "id": "node/5049656186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049674434",
+        "addr:street": "Avenida 9 de Diciembre",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Vital Farma",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2060368,
+          -12.0850365
+        ]
+      },
+      "id": "node/5049674434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049681615",
+        "addr:street": "Avenida Huancavelica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Soat",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2086065,
+          -12.0816306
+        ]
+      },
+      "id": "node/5049681615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049722380",
+        "addr:city": "El Tambo",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2356153,
+          -12.0291697
+        ]
+      },
+      "id": "node/5049722380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049722382",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "name": "Mifarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2355778,
+          -12.0292177
+        ]
+      },
+      "id": "node/5049722382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049722388",
+        "addr:city": "El Tambo",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "name": "Bata Blanca",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2352221,
+          -12.0297752
+        ]
+      },
+      "id": "node/5049722388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049722389",
+        "addr:city": "El Tambo",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.235184,
+          -12.0298205
+        ]
+      },
+      "id": "node/5049722389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049722390",
+        "addr:city": "El Tambo",
+        "addr:street": "Mariscal Castilla",
+        "amenity": "pharmacy",
+        "name": "Farmavida",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.235269,
+          -12.0297071
+        ]
+      },
+      "id": "node/5049722390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049732638",
+        "addr:street": "Avenida Jacinto Ibarra",
+        "amenity": "pharmacy",
+        "name": "Boticas Vida y Salud",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2007287,
+          -12.076823
+        ]
+      },
+      "id": "node/5049732638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049758715",
+        "addr:street": "Prolongación Cajamarca",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Medi Far",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2028801,
+          -12.0700197
+        ]
+      },
+      "id": "node/5049758715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5051612673",
+        "addr:street": "Jirón Atahualpa",
+        "amenity": "pharmacy",
+        "brand": "Boticas y Salud",
+        "brand:wikidata": "Q62563126",
+        "healthcare": "pharmacy",
+        "name": "Boticas y Salud",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.203374,
+          -12.0703426
+        ]
+      },
+      "id": "node/5051612673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5051612709",
+        "addr:street": "Prolongación Cajamarca",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Adonay",
+        "source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2024963,
+          -12.0696945
+        ]
+      },
+      "id": "node/5051612709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5051729615",
+        "addr:city": "Huancayo",
+        "addr:street": "Jirón Santa Isabel",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia SAnta Rosa",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2130618,
+          -12.0601953
+        ]
+      },
+      "id": "node/5051729615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5051781820",
+        "addr:city": "Huancayo",
+        "addr:street": "Antonio Lobato",
+        "amenity": "pharmacy",
+        "name": "Botica Perueair",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2148202,
+          -12.0582536
+        ]
+      },
+      "id": "node/5051781820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5051815782",
+        "addr:city": "Concepción",
+        "addr:street": "Avenida Mariscal Caceres",
+        "amenity": "pharmacy",
+        "name": "Farmacia Curen",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3150921,
+          -11.919947
+        ]
+      },
+      "id": "node/5051815782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052099327",
+        "addr:street": "Avenida Ricardo Palma",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4981795,
+          -11.7786251
+        ]
+      },
+      "id": "node/5052099327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052099328",
+        "addr:street": "Avenida Ricardo Palma",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4981569,
+          -11.7786592
+        ]
+      },
+      "id": "node/5052099328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052152198",
+        "addr:street": "Avenida Ricardo Palma",
+        "amenity": "pharmacy",
+        "name": "Botica San Martín de Porres",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.497686,
+          -11.7791848
+        ]
+      },
+      "id": "node/5052152198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052152220",
+        "addr:street": "Jirón Bruno Terreros",
+        "amenity": "pharmacy",
+        "name": "Farmacia Alborada",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4943982,
+          -11.7816225
+        ]
+      },
+      "id": "node/5052152220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052152843",
+        "addr:street": "Avenida Bruno Terreros",
+        "amenity": "pharmacy",
+        "name": "Farmacia el Pueblo",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4964404,
+          -11.7792545
+        ]
+      },
+      "id": "node/5052152843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052152849",
+        "addr:street": "Avenida Bruno Terreros",
+        "amenity": "pharmacy",
+        "name": "Farmacia Cruz Verde",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4965378,
+          -11.7791285
+        ]
+      },
+      "id": "node/5052152849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052152887",
+        "addr:street": "Jirón Fransisco Pizarro",
+        "amenity": "pharmacy",
+        "name": "Botica Progreso",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4978639,
+          -11.7781844
+        ]
+      },
+      "id": "node/5052152887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052216114",
+        "addr:street": "Jirón Colina",
+        "amenity": "pharmacy",
+        "name": "Botica San Vicente",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4979321,
+          -11.7768088
+        ]
+      },
+      "id": "node/5052216114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052244425",
+        "addr:street": "Avenida Fransisco Carlé",
+        "amenity": "pharmacy",
+        "name": "Farmacia el Roasario",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4964409,
+          -11.778176
+        ]
+      },
+      "id": "node/5052244425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052256154",
+        "addr:street": "Jirón San Martin",
+        "amenity": "pharmacy",
+        "name": "Botica San Martín",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4968932,
+          -11.7772904
+        ]
+      },
+      "id": "node/5052256154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052256172",
+        "addr:street": "Jirón San Martin",
+        "amenity": "pharmacy",
+        "name": "Multifarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4973215,
+          -11.7763609
+        ]
+      },
+      "id": "node/5052256172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052303121",
+        "addr:street": "Piura Antigua",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Andes Farma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2006677,
+          -12.0687789
+        ]
+      },
+      "id": "node/5052303121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052303126",
+        "addr:street": "Piura Antigua",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Halmed Farma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1999927,
+          -12.0686724
+        ]
+      },
+      "id": "node/5052303126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052314864",
+        "addr:street": "Avenida Ricardo Palma",
+        "amenity": "pharmacy",
+        "brand": "Mifarma",
+        "brand:wikidata": "Q62564998",
+        "healthcare": "pharmacy",
+        "name": "Mifarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4978272,
+          -11.7786435
+        ]
+      },
+      "id": "node/5052314864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052314869",
+        "addr:street": "Avenida Ricardo Palma",
+        "amenity": "pharmacy",
+        "name": "Econofarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4976661,
+          -11.778831
+        ]
+      },
+      "id": "node/5052314869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052334560",
+        "addr:street": "Avenida 28 de Julio",
+        "amenity": "pharmacy",
+        "name": "Botica Niño Jesus",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4963952,
+          -11.7795506
+        ]
+      },
+      "id": "node/5052334560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052334578",
+        "addr:street": "Avenida Bruno Terreros",
+        "amenity": "pharmacy",
+        "name": "Botica Jesus",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.497054,
+          -11.7787685
+        ]
+      },
+      "id": "node/5052334578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054001728",
+        "addr:city": "Huancayo",
+        "addr:street": "Jirón Santa Isabel",
+        "amenity": "pharmacy",
+        "name": "Botica Yani Farma",
+        "operator": "Interbank",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2143446,
+          -12.0581041
+        ]
+      },
+      "id": "node/5054001728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054196916",
+        "addr:street": "Avenida Huancavelica",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Farmasalud",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2111339,
+          -12.0760996
+        ]
+      },
+      "id": "node/5054196916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054280699",
+        "addr:street": "Jirón Santa Rosa",
+        "amenity": "pharmacy",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2221561,
+          -12.0669758
+        ]
+      },
+      "id": "node/5054280699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054815565",
+        "addr:street": "Carretera Central Sur",
+        "amenity": "pharmacy",
+        "name": "Botica Marianofarma",
+        "source": "Kaart Ground Survey 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3429814,
+          -11.8913841
+        ]
+      },
+      "id": "node/5054815565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5812528153",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2044467,
+          -12.0560883
+        ]
+      },
+      "id": "node/5812528153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5916631953",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Botica Farma Jhel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.059828,
+          -10.9235633
+        ]
+      },
+      "id": "node/5916631953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7515345860",
+        "addr:housenumber": "307",
+        "addr:street": "Avenida Pacheco",
+        "amenity": "pharmacy",
+        "name": "Botica Del Socorro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6923528,
+          -11.4245226
+        ]
+      },
+      "id": "node/7515345860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7515345861",
+        "addr:housenumber": "327",
+        "addr:street": "Avenida Pacheco",
+        "amenity": "pharmacy",
+        "name": "Botica Santa Isabel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6923591,
+          -11.4246443
+        ]
+      },
+      "id": "node/7515345861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8855249189",
+        "addr:housenumber": "984",
+        "addr:street": "Avenida Centenario",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Jhonny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1996356,
+          -12.0595423
+        ]
+      },
+      "id": "node/8855249189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8964029617",
+        "amenity": "pharmacy",
+        "brand": "Inkafarma",
+        "brand:wikidata": "Q10997748",
+        "healthcare": "pharmacy",
+        "name": "Inkafarma",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "phone": "+51 64 246879",
+        "website": "https://inkafarma.pe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2056219,
+          -12.0724634
+        ]
+      },
+      "id": "node/8964029617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12123175793",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Malu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6933313,
+          -11.4197055
+        ]
+      },
+      "id": "node/12123175793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12123175794",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6930931,
+          -11.419678
+        ]
+      },
+      "id": "node/12123175794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12257198278",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botica Bio Solidaridad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1993445,
+          -12.0706791
+        ]
+      },
+      "id": "node/12257198278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12736596548",
+        "amenity": "pharmacy",
+        "baby_feeding": "no",
+        "brand": "Inkafarma",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "level": "7",
+        "name": "Inkafarma",
+        "opening_hours": "Mo-Fr 08:30-21:45",
+        "operator": "Inkafarma",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2087449,
+          -12.0622495
+        ]
+      },
+      "id": "node/12736596548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13072564401",
+        "amenity": "pharmacy",
+        "name": "Boticas Pilar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4966429,
+          -11.7782038
+        ]
+      },
+      "id": "node/13072564401"
+    }
+  ]
+}

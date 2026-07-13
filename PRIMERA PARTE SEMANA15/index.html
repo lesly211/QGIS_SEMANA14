@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 15 - Sistema de Incidencias</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Contenedor principal para poner mapa y panel lado a lado */
+        .contenedor {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* El mapa ahora ocupa el 75% del ancho */
+        #mapa {
+            height: 500px;
+            width: 75%;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* El panel lateral ocupa el 25% */
+        #panel-lateral {
+            width: 25%;
+            background: #f8f9fa;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* Estilo para el botón */
+        #btnInicio {
+            background: #0d6efd;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        #btnInicio:hover {
+            background: #0b5ed7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Reporte Geolocalizado de Incidencias - Huancayo</h2>
+
+    <div class="contenedor">
+        <!-- Lienzo del mapa -->
+        <div id="mapa"></div>
+
+        <!-- Panel Lateral (Paso 4 y 5) -->
+        <div id="panel-lateral">
+            <h3>Estado del Visor</h3>
+            <p id="info-vista">Mueve el mapa para ver los datos...</p>
+
+            <button id="btnInicio">Volar al Inicio</button>
+            <!-- Separador visual -->
+            <hr style="margin: 20px 0;">
+
+            <!-- Controles para los Retos 1 y 2 -->
+            <h3>Práctica Calificada</h3>
+
+            <label><strong>Tipo de Incidencia:</strong></label><br>
+            <select id="tipoIncidencia" style="width: 100%; padding: 5px; margin-top: 5px; margin-bottom: 15px;">
+                <option value="Bache">Bache (Rojo)</option>
+                <option value="Fuga">Fuga de Agua (Azul)</option>
+                <option value="Luminaria">Luminaria (Naranja)</option>
+            </select>
+
+            <p style="font-size: 18px; margin: 0;"><strong>Total de reportes: </strong>
+                <span id="contador" style="color: red; font-weight: bold;">0</span>
+            </p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="reportes.js"></script>
+
+</body>
+
+</html>
