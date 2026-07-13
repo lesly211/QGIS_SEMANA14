@@ -1,9 +1,9 @@
-// Coordenadas de Huancayo según el escenario
-var vistaInicial = [-12.0667, -75.2049];
-var nivelZoom = 14;
+// Coordenadas de la Puerta Principal de la UNCP
+var origenCoordenadas = [-12.033046, -75.237332];
+var nivelZoom = 15;
 
-// Instanciar el mapa en el div con id "mapa"
-var mapa = L.map('mapa').setView(vistaInicial, nivelZoom);
+// Instanciar el mapa en el div con id "mapa", centrado en la UNCP
+var mapa = L.map('mapa').setView(origenCoordenadas, nivelZoom);
 
 // Cargar la capa base visual 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -11,94 +11,115 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 }).addTo(mapa);
 
-// Variables para el Ejercicio 2: Delimitación de Zonas de Riesgo
-var puntosZona = [];
-var marcadoresZona = [];
-var poligonoZona = null;
+// Crear marcador estático de Origen (Puerta Principal UNCP)
+var marcadorOrigen = L.marker(origenCoordenadas, {
+    icon: L.divIcon({
+        className: 'custom-origin-icon',
+        html: `<div style="background-color: #0d6efd; width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 5px rgba(0,0,0,0.6);"></div>`,
+        iconSize: [16, 16],
+        iconAnchor: [8, 8]
+    })
+}).addTo(mapa);
+marcadorOrigen.bindPopup("<b>Origen: Puerta Principal UNCP</b>").openPopup();
+
+// Variables para el destino, la línea de trayecto y control del simulador
+var marcadorDestino = null;
+var lineaTrayecto = null;
+var enMovimiento = false;
 
 // Elementos del DOM
-var contadorPuntosZona = document.getElementById('contador-puntos-zona');
-var infoCentroZona = document.getElementById('info-centro-zona');
-var coordenadasCentro = document.getElementById('coordenadas-centro');
-var btnReiniciarZona = document.getElementById('btnReiniciarZona');
+var estadoSimulador = document.getElementById('estado-simulador');
+var btnVolverOrigen = document.getElementById('btnVolverOrigen');
 
-// Evento: Registrar exactamente 3 clics en el mapa
-mapa.on('click', function (e) {
+// 1 y 2. Registrar clic derecho en el mapa para ubicar al cliente
+mapa.on('contextmenu', function (e) {
     var lat = e.latlng.lat;
     var lng = e.latlng.lng;
 
-    // Si ya tenemos 3 puntos, lanzar alerta con las coordenadas centrales y no agregar más
-    if (puntosZona.length >= 3) {
-        var latCentro = (puntosZona[0][0] + puntosZona[1][0] + puntosZona[2][0]) / 3;
-        var lngCentro = (puntosZona[0][1] + puntosZona[1][1] + puntosZona[2][1]) / 3;
-        
-        alert("¡Delimitación bloqueada! El polígono ya fue creado.\nCoordenadas centrales exactas:\nLatitud: " + latCentro.toFixed(6) + "\nLongitud: " + lngCentro.toFixed(6));
-        return;
+    // Limpiar destino y trayecto anteriores si existen
+    if (marcadorDestino) {
+        mapa.removeLayer(marcadorDestino);
+    }
+    if (lineaTrayecto) {
+        mapa.removeLayer(lineaTrayecto);
     }
 
-    // Agregar punto a la lista
-    puntosZona.push([lat, lng]);
-
-    // Dibujar un marcador temporal en el vértice (punto de clic)
-    var marker = L.marker([lat, lng], {
+    // Colocar un marcador de destino diferente (color rojo)
+    marcadorDestino = L.marker([lat, lng], {
         icon: L.divIcon({
-            className: 'custom-vertex-icon',
-            html: `<div style="background-color: #dc3545; width: 12px; height: 12px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 4px rgba(0,0,0,0.5);"></div>`,
-            iconSize: [12, 12],
-            iconAnchor: [6, 6]
+            className: 'custom-destination-icon',
+            html: `<div style="background-color: #dc3545; width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 5px rgba(0,0,0,0.6);"></div>`,
+            iconSize: [16, 16],
+            iconAnchor: [8, 8]
         })
     }).addTo(mapa);
-    
-    // Popup para mostrar coordenadas individuales del vértice
-    marker.bindPopup(`<b>Vértice ${puntosZona.length}</b><br>Lat: ${lat.toFixed(4)}<br>Lng: ${lng.toFixed(4)}`).openPopup();
-    marcadoresZona.push(marker);
+    marcadorDestino.bindPopup(`<b>Destino: Cliente</b><br>Lat: ${lat.toFixed(6)}<br>Lng: ${lng.toFixed(6)}`);
 
-    // Actualizar el contador de puntos en el DOM
-    contadorPuntosZona.innerText = puntosZona.length + " / 3";
+    // Dibujar línea de trayecto desde el origen hasta el destino
+    lineaTrayecto = L.polyline([origenCoordenadas, [lat, lng]], {
+        color: '#0d6efd',
+        weight: 3,
+        opacity: 0.8,
+        dashArray: '8, 6'
+    }).addTo(mapa);
 
-    // Al registrarse el tercer clic
-    if (puntosZona.length === 3) {
-        // 1. Dibujar automáticamente un polígono cerrado (triángulo)
-        poligonoZona = L.polygon(puntosZona, {
-            color: '#dc3545',       // Borde rojo
-            fillColor: '#ea4335',   // Relleno rojo claro
-            fillOpacity: 0.4,       // Opacidad de relleno
-            weight: 3               // Grosor del borde
-        }).addTo(mapa);
+    // Actualizar panel lateral indicando que está en movimiento
+    enMovimiento = true;
+    estadoSimulador.innerText = "Unidad en movimiento...";
+    estadoSimulador.style.color = "#fd7e14"; // Naranja
+    estadoSimulador.style.borderColor = "#fd7e14";
+    estadoSimulador.style.background = "#fff3cd"; // Amarillo claro
 
-        // 2. Encuadrar automáticamente la vista del mapa para que el polígono ocupe el centro
-        mapa.fitBounds(poligonoZona.getBounds(), { padding: [50, 50] });
+    // 3. Vuelo animado suave hacia el destino
+    mapa.flyTo([lat, lng], 16, {
+        duration: 3.0 // Duración del vuelo animado en segundos
+    });
+});
 
-        // Calcular el centro exacto (centroide)
-        var latCentro = (puntosZona[0][0] + puntosZona[1][0] + puntosZona[2][0]) / 3;
-        var lngCentro = (puntosZona[0][1] + puntosZona[1][1] + puntosZona[2][1]) / 3;
+// 4. Actualizar estado automáticamente cuando la cámara aterrice y se detenga completamente
+mapa.on('moveend', function () {
+    if (enMovimiento) {
+        enMovimiento = false;
 
-        // Mostrar información del centro en el panel lateral
-        coordenadasCentro.innerHTML = `Lat: ${latCentro.toFixed(6)}<br>Lng: ${lngCentro.toFixed(6)}`;
-        infoCentroZona.style.display = 'block';
-        
-        // Agregar popup al centro del polígono
-        poligonoZona.bindPopup(`<b>Zona de Riesgo Delimitada</b><br>Centroide:<br>Lat: ${latCentro.toFixed(6)}<br>Lng: ${lngCentro.toFixed(6)}`).openPopup(poligonoZona.getBounds().getCenter());
+        // Mensaje de llegada
+        estadoSimulador.innerText = "Unidad llegó a la ubicación";
+        estadoSimulador.style.color = "#198754"; // Verde
+        estadoSimulador.style.borderColor = "#198754";
+        estadoSimulador.style.background = "#d1e7dd"; // Verde claro
+
+        // Abrir automáticamente el popup de destino al finalizar el movimiento
+        if (marcadorDestino) {
+            marcadorDestino.openPopup();
+        }
     }
 });
 
-// Botón para reiniciar y poder trazar otro triángulo
-btnReiniciarZona.addEventListener('click', function () {
-    // Remover marcadores de los vértices
-    marcadoresZona.forEach(function (m) {
-        mapa.removeLayer(m);
-    });
-    marcadoresZona = [];
-    puntosZona = [];
-    
-    // Remover polígono
-    if (poligonoZona) {
-        mapa.removeLayer(poligonoZona);
-        poligonoZona = null;
+// Botón para resetear y regresar al origen
+btnVolverOrigen.addEventListener('click', function () {
+    if (marcadorDestino) {
+        mapa.removeLayer(marcadorDestino);
+        marcadorDestino = null;
     }
-    
-    // Resetear elementos del DOM
-    contadorPuntosZona.innerText = "0 / 3";
-    infoCentroZona.style.display = 'none';
-    mapa.flyTo(vistaInicial, nivelZoom);
+
+    // Remover la línea de trayecto
+    if (lineaTrayecto) {
+        mapa.removeLayer(lineaTrayecto);
+        lineaTrayecto = null;
+    }
+
+    // Restaurar panel
+    estadoSimulador.innerText = "Esperando ubicación del cliente (Clic derecho en el mapa)...";
+    estadoSimulador.style.color = "#0d6efd";
+    estadoSimulador.style.borderColor = "#0d6efd";
+    estadoSimulador.style.background = "#eef7ff";
+
+    // Volar de regreso al origen
+    mapa.flyTo(origenCoordenadas, nivelZoom, {
+        duration: 2.0
+    });
+
+    // Abrir el popup de origen tras volver
+    setTimeout(function () {
+        marcadorOrigen.openPopup();
+    }, 2000);
 });

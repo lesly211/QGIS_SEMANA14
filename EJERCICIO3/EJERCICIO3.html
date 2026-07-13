@@ -59,37 +59,34 @@
 
 <body>
 
-    <h2>Reporte Geolocalizado de Incidencias - Huancayo</h2>
+    <h2>Simulador de Desplazamiento - UNCP</h2>
 
     <div class="contenedor">
         <!-- Lienzo del mapa -->
         <div id="mapa"></div>
 
-        <!-- Panel Lateral (Ejercicio 2: Delimitación de Zonas de Riesgo) -->
+        <!-- Panel Lateral (Ejercicio 3: Simulador de Desplazamiento) -->
         <div id="panel-lateral">
-            <h2>Zona de Riesgo</h2>
-            <p style="font-size: 13px; color: #555; background: #eef7ff; padding: 10px; border-left: 4px solid #0d6efd; border-radius: 3px; line-height: 1.4;">
-                Haz exactamente 3 clics en el mapa en diferentes puntos para delimitar una zona de riesgo (triángulo).
-            </p>
+            <h2>Simulador de Viaje</h2>
             
-            <p style="font-size: 16px; margin: 20px 0;">
-                <strong>Vértices registrados:</strong> <br>
-                <span id="contador-puntos-zona" style="font-weight: bold; color: #dc3545; font-size: 24px;">0 / 3</span>
-            </p>
-
-            <div id="info-centro-zona" style="display: none; background: #e2f0d9; padding: 12px; border-left: 4px solid #385723; border-radius: 3px; font-size: 13px; margin: 15px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-                <strong style="color: #385723;">Centro del Polígono:</strong><br>
-                <div id="coordenadas-centro" style="font-family: monospace; font-size: 12px; margin-top: 5px; color: #333; line-height: 1.4;">Lat: -<br>Lng: -</div>
+            <div style="font-size: 13px; color: #555; background: #eef7ff; padding: 12px; border-left: 4px solid #0d6efd; border-radius: 3px; line-height: 1.5; margin-bottom: 20px;">
+                <strong>Instrucciones:</strong><br>
+                Haz <strong>clic derecho (menú contextual)</strong> en cualquier punto del mapa para establecer la ubicación de destino del cliente.
             </div>
 
-            <button id="btnReiniciarZona" style="background: #dc3545; color: white; border: none; padding: 12px 15px; cursor: pointer; border-radius: 5px; width: 100%; margin-top: 15px; font-size: 15px; font-weight: bold; transition: background 0.2s;">
-                Reiniciar Delimitación
+            <h3>Estado de la Unidad</h3>
+            <div id="estado-simulador" style="padding: 15px; border: 1px solid #0d6efd; border-radius: 5px; font-weight: bold; font-size: 14px; text-align: center; color: #0d6efd; background: #eef7ff; transition: all 0.3s ease; line-height: 1.4; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                Esperando ubicación del cliente (Clic derecho en el mapa)...
+            </div>
+
+            <button id="btnVolverOrigen" style="background: #0d6efd; color: white; border: none; padding: 12px 15px; cursor: pointer; border-radius: 5px; width: 100%; margin-top: 20px; font-size: 15px; font-weight: bold; transition: background 0.2s;">
+                Volver al Origen
             </button>
         </div>
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="reportesEJER2.js"></script>
+    <script src="reportesEJER3.js"></script>
 
 </body>
 
