@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 - Panel de Control de Capas</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .contenedor {
+            display: flex;
+            gap: 20px;
+        }
+
+        #mapa {
+            height: 500px;
+            width: 75%;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #panel-lateral {
+            width: 25%;
+            background: #f8f9fa;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .control-capa {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .control-capa:hover {
+            background: #e9ecef;
+        }
+
+        .control-capa input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: #0d6efd;
+        }
+
+        .dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            display: inline-block;
+            border: 2px solid rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Panel de Control de Capas - Huancayo</h2>
+
+    <div class="contenedor">
+        <!-- Lienzo del mapa -->
+        <div id="mapa"></div>
+
+        <!-- Panel Lateral (Ejercicio 4: Panel de Control de Capas) -->
+        <div id="panel-lateral">
+            <h2>Control de Capas</h2>
+            <p style="font-size: 13px; color: #666; margin-bottom: 18px;">
+                Activa o desactiva cada categoría para mostrar u ocultar sus marcadores en el mapa.
+            </p>
+
+            <label class="control-capa" id="label-baches">
+                <input type="checkbox" id="chk-baches" checked>
+                <span class="dot" style="background-color: #dc3545;"></span>
+                Baches
+            </label>
+
+            <label class="control-capa" id="label-fugas">
+                <input type="checkbox" id="chk-fugas" checked>
+                <span class="dot" style="background-color: #0d6efd;"></span>
+                Fugas de Agua
+            </label>
+
+            <label class="control-capa" id="label-luminarias">
+                <input type="checkbox" id="chk-luminarias" checked>
+                <span class="dot" style="background-color: #fd7e14;"></span>
+                Luminarias Averiadas
+            </label>
+
+            <hr style="margin: 20px 0;">
+
+            <div style="font-size: 13px; color: #555; background: #eef7ff; padding: 12px; border-left: 4px solid #0d6efd; border-radius: 3px; line-height: 1.5;">
+                <strong>Total de incidencias:</strong><br>
+                <span id="total-visibles" style="font-size: 20px; font-weight: bold; color: #0d6efd;">6 / 6</span>
+                <span style="font-size: 12px;"> visibles</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="reportesEJER4.js"></script>
+
+</body>
+
+</html>
