@@ -31,7 +31,7 @@ mapa.on('click', function (e) {
     if (puntosZona.length >= 3) {
         var latCentro = (puntosZona[0][0] + puntosZona[1][0] + puntosZona[2][0]) / 3;
         var lngCentro = (puntosZona[0][1] + puntosZona[1][1] + puntosZona[2][1]) / 3;
-
+        
         alert("¡Delimitación bloqueada! El polígono ya fue creado.\nCoordenadas centrales exactas:\nLatitud: " + latCentro.toFixed(6) + "\nLongitud: " + lngCentro.toFixed(6));
         return;
     }
@@ -48,7 +48,7 @@ mapa.on('click', function (e) {
             iconAnchor: [6, 6]
         })
     }).addTo(mapa);
-
+    
     // Popup para mostrar coordenadas individuales del vértice
     marker.bindPopup(`<b>Vértice ${puntosZona.length}</b><br>Lat: ${lat.toFixed(4)}<br>Lng: ${lng.toFixed(4)}`).openPopup();
     marcadoresZona.push(marker);
@@ -76,7 +76,7 @@ mapa.on('click', function (e) {
         // Mostrar información del centro en el panel lateral
         coordenadasCentro.innerHTML = `Lat: ${latCentro.toFixed(6)}<br>Lng: ${lngCentro.toFixed(6)}`;
         infoCentroZona.style.display = 'block';
-
+        
         // Agregar popup al centro del polígono
         poligonoZona.bindPopup(`<b>Zona de Riesgo Delimitada</b><br>Centroide:<br>Lat: ${latCentro.toFixed(6)}<br>Lng: ${lngCentro.toFixed(6)}`).openPopup(poligonoZona.getBounds().getCenter());
     }
@@ -90,13 +90,13 @@ btnReiniciarZona.addEventListener('click', function () {
     });
     marcadoresZona = [];
     puntosZona = [];
-
+    
     // Remover polígono
     if (poligonoZona) {
         mapa.removeLayer(poligonoZona);
         poligonoZona = null;
     }
-
+    
     // Resetear elementos del DOM
     contadorPuntosZona.innerText = "0 / 3";
     infoCentroZona.style.display = 'none';
